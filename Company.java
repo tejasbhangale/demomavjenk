@@ -1,7 +1,15 @@
 
 public class Company{
 	
-	public String name="Capgemini";
+	private String name="Capgemini";
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 
 }
